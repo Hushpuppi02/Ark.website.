@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Département — Arche Source de Vie</title>
+  <meta name="description" content="Espace dédié à un département de l'Arche Source de Vie." />
+  <link rel="icon" href="/logo-light.jpg" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img data-logo src="/logo-light.jpg" alt="Logo Arche Source de Vie" />
+        <span class="brand-text"><strong>Arche Source de Vie</strong><span data-i18n="brand.sub">Source de Vie</span></span>
+      </a>
+      <nav class="nav-links" data-nav-links>
+        <a href="index.html" data-i18n="nav.home">Accueil</a>
+        <a href="about.html" data-i18n="nav.about">L'Église</a>
+        <a href="index.html#programs" data-i18n="nav.programs">Programmes</a>
+        <a href="departments.html" data-i18n="nav.departments">Départements</a>
+        <a href="leaders.html" data-i18n="nav.leaders">Serviteurs</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn lang-btn" data-lang-btn aria-label="Switch language"><span class="lang-label">EN</span></button>
+        <button class="icon-btn" data-theme-btn aria-label="Toggle theme">&#9790;</button>
+        <button class="icon-btn menu-toggle" data-menu-toggle aria-label="Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="section">
+    <div class="container">
+      <p class="breadcrumb">
+        <a href="departments.html" data-i18n="deptd.back">Tous les départements</a>
+      </p>
+
+      <div class="dept-hero">
+        <div class="reveal">
+          <span class="dept-tag" data-dept-tag>Département</span>
+          <h1 data-dept-name style="font-size:clamp(2.2rem,5vw,3.4rem);">Département</h1>
+          <p style="color:var(--text-soft); margin-top:1rem;" data-dept-intro></p>
+
+          <div class="leader-card" style="margin-top:1.6rem;">
+            <div class="leader-avatar" data-leader-initials>--</div>
+            <div>
+              <p class="eyebrow" data-i18n="deptd.leader">Responsable du département</p>
+              <h4 data-leader-name>—</h4>
+              <p class="role" data-leader-role>—</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-logo-wrap reveal" style="font-size:5rem; color:var(--gold);">
+          <span data-dept-icon>&#9836;</span>
+        </div>
+      </div>
+
+      <div class="grid grid-2" style="margin-top:1rem;">
+        <div class="card reveal">
+          <h3 data-i18n="deptd.mission">Mission du département</h3>
+          <p style="margin-top:.6rem;" data-dept-mission></p>
+        </div>
+        <div class="card reveal">
+          <h3 data-i18n="deptd.activities">Activités & responsabilités</h3>
+          <ul class="bullet-list" data-dept-activities></ul>
+        </div>
+      </div>
+
+      <div class="notice reveal" style="margin-top:1.6rem;">
+        <span class="ic">&#9432;</span>
+        <span data-i18n="deptd.note">Cet espace est dédié au département.</span>
+      </div>
+
+      <div style="margin-top:1.8rem;">
+        <a href="contact.html" class="btn btn-gold" data-i18n="deptd.join">Rejoindre ce département</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img data-logo src="/logo-light.jpg" alt="Logo" />
+            <span class="brand-text"><strong>Arche Source de Vie</strong><span data-i18n="brand.sub">Source de Vie</span></span>
+          </a>
+          <p data-i18n="footer.tagline">Une maison de foi, d'espérance et de vie.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.explore">Explorer</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="nav.about">L'Église</a></li>
+            <li><a href="index.html#programs" data-i18n="nav.programs">Programmes</a></li>
+            <li><a href="leaders.html" data-i18n="nav.leaders">Serviteurs</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.depts">Départements</h4>
+          <ul>
+            <li><a href="department.html?d=worship" data-i18n="dept.worship.t">Louange</a></li>
+            <li><a href="department.html?d=prayer" data-i18n="dept.prayer.t">Prière</a></li>
+            <li><a href="department.html?d=youth" data-i18n="dept.youth.t">Jeunesse (GenZion)</a></li>
+            <li><a href="department.html?d=media" data-i18n="dept.media.t">Médias</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Arche Source de Vie — <span data-i18n="footer.rights">Tous droits réservés.</span></span>
+        <span data-i18n="footer.madewith">Avec foi et dévouement</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+  <script type="module" src="/department.js"></script>
+</body>
+</html>

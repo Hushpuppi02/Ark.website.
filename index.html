@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arche Source de Vie — Ark Source of Life</title>
+  <meta name="description" content="Arche Source de Vie / Ark Source of Life — une église chrétienne vivante. Programmes, départements et serviteurs." />
+  <link rel="icon" href="/logo-light.jpg" />
+  <link rel="stylesheet" href="/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container nav">
+      <a href="index.html" class="brand">
+        <img data-logo src="/logo-light.jpg" alt="Logo Arche Source de Vie" />
+        <span class="brand-text">
+          <strong>Arche Source de Vie</strong>
+          <span data-i18n="brand.sub">Source de Vie</span>
+        </span>
+      </a>
+      <nav class="nav-links" data-nav-links>
+        <a href="index.html" data-i18n="nav.home">Accueil</a>
+        <a href="about.html" data-i18n="nav.about">L'Église</a>
+        <a href="index.html#programs" data-i18n="nav.programs">Programmes</a>
+        <a href="departments.html" data-i18n="nav.departments">Départements</a>
+        <a href="leaders.html" data-i18n="nav.leaders">Serviteurs</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn lang-btn" data-lang-btn aria-label="Changer de langue / Switch language">
+          <span class="lang-label">EN</span>
+        </button>
+        <button class="icon-btn" data-theme-btn aria-label="Changer de thème / Toggle theme">&#9790;</button>
+        <button class="icon-btn menu-toggle" data-menu-toggle aria-label="Menu">&#9776;</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Bienvenue à l'Arche Source de Vie</p>
+        <h1 data-i18n="hero.title">Une maison de foi, d'espérance et de vie</h1>
+        <p class="lead" data-i18n="hero.lead">Nous sommes une communauté chrétienne vivante…</p>
+        <div class="hero-actions">
+          <a href="index.html#programs" class="btn btn-gold" data-i18n="hero.cta1">Nos programmes</a>
+          <a href="contact.html" class="btn btn-outline" data-i18n="hero.cta2">Nous contacter</a>
+        </div>
+        <blockquote class="verse" data-i18n="hero.verse">« Car en lui nous avons la vie… » — Actes 17:28</blockquote>
+      </div>
+      <div class="hero-logo-wrap reveal">
+        <img data-logo src="/logo-light.jpg" alt="Emblème Arche Source de Vie" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="about.eyebrow">Qui sommes-nous</p>
+        <h2 data-i18n="about.title">Enracinés en Christ, tournés vers le monde</h2>
+        <p data-i18n="about.text">L'Arche Source de Vie est une église qui accueille toutes les nations…</p>
+      </div>
+      <div class="grid grid-3">
+        <div class="card reveal">
+          <div class="ic">&#10022;</div>
+          <h3 data-i18n="value.mission.t">Notre mission</h3>
+          <p data-i18n="value.mission.d">Conduire les âmes à Christ.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ic">&#9737;</div>
+          <h3 data-i18n="value.vision.t">Notre vision</h3>
+          <p data-i18n="value.vision.d">Être une source de vie pour les nations.</p>
+        </div>
+        <div class="card reveal">
+          <div class="ic">&#10084;</div>
+          <h3 data-i18n="value.values.t">Nos valeurs</h3>
+          <p data-i18n="value.values.d">Amour, intégrité, service et excellence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS -->
+  <section class="section alt" id="programs">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="prog.eyebrow">Nos rendez-vous</p>
+        <h2 data-i18n="prog.title">Programme hebdomadaire</h2>
+        <p data-i18n="prog.sub">Retrouvez-nous tout au long de la semaine.</p>
+      </div>
+      <div class="grid grid-2">
+        <div class="schedule-item reveal">
+          <div class="day"><small data-i18n="day.sun">DIM</small></div>
+          <div>
+            <h4 data-i18n="prog.sun.t">Culte de célébration</h4>
+            <p class="time">09:30 – 11:30 </p>
+            <p data-i18n="prog.sun.d">Louange, Parole et communion.</p>
+          </div>
+        </div>
+        <div class="schedule-item reveal">
+          <div class="day"><small data-i18n="day.sat">Lun</small></div>
+          <div>
+            <h4 data-i18n="prog.sat.t">Rencontre des jeunes</h4>
+            <p class="time">20:30 – 21:30</p>
+            <p data-i18n="prog.sat.d">Un temps pour la nouvelle génération.</p>
+          </div>
+        </div>
+        <div class="schedule-item reveal">
+          <div class="day"><small data-i18n="day.wed">Mar</small></div>
+          <div>
+            <h4 data-i18n="prog.wed.t">Étude biblique</h4>
+            <p class="time">21:00 – 2:00</p>
+            <p data-i18n="prog.wed.d">Approfondir les Écritures ensemble.</p>
+          </div>
+        </div>
+        <div class="schedule-item reveal">
+          <div class="day"><small data-i18n="day.fri">VEN</small></div>
+          <div>
+            <h4 data-i18n="prog.fri.t">Prière et enseignement</h4>
+            <p class="time">18:00 – 19:30</p>
+            <p data-i18n="prog.fri.d">Intercession et enseignement.</p>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTMENTS PREVIEW -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="dept.eyebrow">Servir ensemble</p>
+        <h2 data-i18n="dept.title">Les départements de l'église</h2>
+        <p data-i18n="dept.sub">Chaque département contribue à la vie de l'église.</p>
+      </div>
+      <div class="grid grid-3">
+        <a href="department.html?d=worship" class="card reveal">
+          <div class="ic">&#9836;</div>
+          <h3 data-i18n="dept.worship.t">Louange & Adoration</h3>
+          <p data-i18n="dept.worship.d">Chorale, musiciens et conducteurs.</p>
+        </a>
+        <a href="department.html?d=prayer" class="card reveal">
+          <div class="ic">&#10047;</div>
+          <h3 data-i18n="dept.prayer.t">Intercession & Prière</h3>
+          <p data-i18n="dept.prayer.d">Équipe de prière et veillées.</p>
+        </a>
+        <a href="department.html?d=youth" class="card reveal">
+          <div class="ic">&#9728;</div>
+          <h3 data-i18n="dept.youth.t">Jeunesse</h3>
+          <p data-i18n="dept.youth.d">Encadrement des jeunes.</p>
+        </a>
+        <a href="department.html?d=children" class="card reveal">
+          <div class="ic">&#973;</div>
+          <h3 data-i18n="dept.children.t">Enfants — École du dimanche</h3>
+          <p data-i18n="dept.children.d">Éveil spirituel des enfants.</p>
+        </a>
+        <a href="department.html?d=welcome" class="card reveal">
+          <div class="ic">&#9784;</div>
+          <h3 data-i18n="dept.welcome.t">Accueil & Protocole</h3>
+          <p data-i18n="dept.welcome.d">Hôtes et accueil des visiteurs.</p>
+        </a>
+        <a href="department.html?d=media" class="card reveal">
+          <div class="ic">&#9658;</div>
+          <h3 data-i18n="dept.media.t">Médias & Communication</h3>
+          <p data-i18n="dept.media.d">Son, vidéo et réseaux sociaux.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section alt">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2 data-i18n="cta.title">Faites partie de la famille</h2>
+        <p data-i18n="cta.text">Vous êtes les bienvenus parmi nous.</p>
+        <a href="contact.html" class="btn btn-light" data-i18n="cta.btn">Planifier une visite</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <img data-logo src="/logo-light.jpg" alt="Logo" />
+            <span class="brand-text">
+              <strong>Arche Source de Vie</strong>
+              <span data-i18n="brand.sub">Source de Vie</span>
+            </span>
+          </a>
+          <p data-i18n="footer.tagline">Une maison de foi, d'espérance et de vie.</p>
+        </div>
+        <div>
+          <h4 data-i18n="footer.explore">Explorer</h4>
+          <ul>
+            <li><a href="about.html" data-i18n="nav.about">L'Église</a></li>
+            <li><a href="index.html#programs" data-i18n="nav.programs">Programmes</a></li>
+            <li><a href="leaders.html" data-i18n="nav.leaders">Serviteurs</a></li>
+            <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 data-i18n="footer.depts">Départements</h4>
+          <ul>
+            <li><a href="department.html?d=worship" data-i18n="dept.worship.t">Louange</a></li>
+            <li><a href="department.html?d=prayer" data-i18n="dept.prayer.t">Prière</a></li>
+            <li><a href="department.html?d=youth" data-i18n="dept.youth.t">Jeunesse</a></li>
+            <li><a href="department.html?d=media" data-i18n="dept.media.t">Médias</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="social-links-grid" style="display: flex; gap: 0.8rem; flex-wrap: wrap;">
+         <a href="https://www.facebook.com/share/1LAHmTmHpY/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="icon-btn" title="Facebook">
+        <i class='bx bxl-facebook' style="font-size: 1.4rem;"></i>
+        </a>
+        <a href="https://www.instagram.com/arksourceoflife?" target="_blank" rel="noopener noreferrer" class="icon-btn" title="Instagram">
+        <i class='bx bxl-instagram' style="font-size: 1.4rem;"></i>
+        </a>
+        <a href="https://www.tiktok.com/@arksourceoflife_north?" target="_blank" rel="noopener noreferrer" class="icon-btn" title="TikTok">
+        <i class='bx bxl-tiktok' style="font-size: 1.4rem;"></i>
+        </a>
+        <a href="https://www.youtube.com/@ArkSourceOfLife-North" target="_blank" rel="noopener noreferrer" class="icon-btn" title="YouTube">
+        <i class='bx bxl-youtube' style="font-size: 1.4rem;"></i>
+        </a>
+      </div><br>
+
+      <div class="footer-bottom">
+        <span>&copy; <span data-year>2026</span> Arche Source de Vie — <span data-i18n="footer.rights">Tous droits réservés.</span></span>
+        <span data-i18n="footer.madewith">Avec foi et dévouement</span>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
